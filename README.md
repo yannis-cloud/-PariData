@@ -112,7 +112,7 @@ Données temps-réel via l'API streaming
 Prise en compte de la météo et des événements parisiens
 Déploiement du dashboard sur Streamlit Cloud
 👤 Auteur
-Yannis Albert Ingénieur Systèmes Numériques — Candidat Master IA & Data Science
+Yannis ALBERT
 
 📧 yannis.albert78@gmail.com
 💼 LinkedIn

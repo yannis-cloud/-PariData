@@ -1,12 +1,12 @@
 📊 PariData — Simulation de trafic routier & modélisation prédictive
      
 
-🎯 Problématique
+ Problématique
 Quel serait l'impact sur le trafic parisien si l'on fermait certains axes routiers majeurs ? Comment modéliser et prédire les reports de charge sur les axes adjacents ?
 
 Ce projet exploite les données ouvertes de comptage routier de la Ville de Paris pour analyser les flux de trafic, identifier les axes critiques, et simuler l'effet de fermetures de voies sur la redistribution du trafic.
 
-📋 Table des matières
+ Table des matières
 Contexte & Objectifs
 Données
 Architecture du projet
@@ -16,7 +16,8 @@ Dashboard Streamlit
 Résultats
 Limites & Perspectives
 Auteur
-📖 Contexte & Objectifs
+
+ Contexte & Objectifs
 La Ville de Paris met à disposition des données de comptage routier en temps réel et historiques via sa plateforme Open Data. Ces données permettent de comprendre les dynamiques de flux de véhicules et de simuler des scénarios d'aménagement urbain.
 
 PariData propose :
@@ -26,7 +27,7 @@ Analyser les patterns de trafic (temporels, géographiques, saisonniers)
 Modéliser les relations entre axes routiers pour prédire les reports de charge
 Simuler la fermeture d'axes et estimer l'impact sur le réseau adjacent
 Visualiser les résultats via un dashboard interactif Streamlit
-📊 Données
+ Données
 Source principale
 Source	Dataset	Format	Lien
 Open Data Paris	Comptages routiers — Données de trafic	CSV	opendata.paris.fr
@@ -39,7 +40,7 @@ date_comptage	Date et heure du comptage
 debit_horaire	Nombre de véhicules par heure
 taux_occupation	Taux d'occupation de la voie (%)
 coordonnees	Latitude / longitude du compteur
-🏗 Architecture du projet
+ Architecture du projet
 PariData/
 ├── data/
 │   ├── raw/                          # Données brutes Open Data
@@ -59,7 +60,7 @@ PariData/
 ├── .gitignore
 ├── LICENSE
 └── README.md
-🔬 Méthodologie
+ Méthodologie
 1. Collecte & Ingestion
 API REST Open Data Paris (téléchargement automatisé)
 Données de comptage horaire sur les principaux axes parisiens
@@ -75,7 +76,7 @@ Validation croisée et comparaison des performances
 Sélection d'un axe à fermer
 Redistribution proportionnelle du trafic sur les axes adjacents
 Estimation du facteur de surcharge et détection de congestion
-🚀 Utilisation
+ Utilisation
 Option 1 — Google Colab (recommandé)
 Open In Colab
 
